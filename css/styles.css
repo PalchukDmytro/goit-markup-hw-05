@@ -16,16 +16,6 @@ button {
         cursor: pointer;
 }
 
-/*button {
-        cursor: pointer;
-        background: #4D5AE5;
-}
-
-button:hover,
-button:focus {
-        background: #404BBF;
-}*/
-
 body {
         font-family: "Roboto", sans-serif;
         color: #434455;
@@ -102,7 +92,6 @@ img {
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -114,7 +103,6 @@ img {
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -130,7 +118,6 @@ img {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
@@ -176,7 +163,6 @@ img {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
         color: #434455;
         transition: color 250ms 
@@ -207,7 +193,6 @@ img {
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        /* 107.143% */
         letter-spacing: 0.02em;
         max-width: 496px;
         margin-right: auto;
@@ -227,7 +212,6 @@ img {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.04em;
         color: #FFF;
         background-color: #4D5AE5;
@@ -269,7 +253,6 @@ img {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        /* 120% */
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color: #2E2F42;
@@ -279,7 +262,6 @@ img {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -314,7 +296,6 @@ img {
         font-style: normal;
         font-weight: 700;
         line-height: 1.11;
-        /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
@@ -326,7 +307,6 @@ img {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        /* 120% */
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color: #2E2F42;
@@ -337,7 +317,6 @@ img {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
         margin-bottom:8px;
         color: #434455;
@@ -416,7 +395,6 @@ img {
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
-        /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
@@ -427,7 +405,6 @@ img {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        /* 120% */
         letter-spacing: 0.02em;
         margin-bottom: 8px;
         color: #2E2F42;
@@ -437,7 +414,6 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -609,7 +585,6 @@ img {
 }
 
 .form-footer-button {
-        position: relative;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -624,7 +599,6 @@ img {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        padding: 0px 0px 0px 24px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -634,9 +608,7 @@ img {
 }
 
 .form-footer-button-icon {
-        position: absolute;
-        top:center;
-        right:24px;
+        margin-left:16px;
         fill: #ffffff;
 }
 
@@ -711,12 +683,6 @@ img {
 .modal-close-icon {
         transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-/*.modal-close-icon:hover,
-.modal-close-icon:focus {
-        fill: #ffffff;
-}*/
 
 .title-modal {
         font-size: 16px;
