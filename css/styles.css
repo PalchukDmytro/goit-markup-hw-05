@@ -561,6 +561,10 @@ img {
        fill: #F4F4FD
 }
 
+.container-form-footer {
+        margin-left:auto;
+}
+
 .container-email-footer {
         margin-bottom: 16px;
 }
@@ -581,12 +585,44 @@ img {
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         margin-right: 24px;
+        padding-left: 16px;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
 }
 
-.form-button-footer {
+.input-email-footer::placeholder {
+        color: #ffffff;
+}
+
+.form-footer-button {
+        position: relative;
         width: 165px;
         height: 40px;
-        padding: 0;
+        border-radius: 4px;
+        background-color: #4D5AE5;
+        color: #FFF;
+        text-align:left;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding: 0px 0px 0px 24px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.form-footer-button:hover,
+.form-footer-button:focus {
+        background-color: #404BBF;
+}
+
+.form-footer-button-icon {
+        position: absolute;
+        top:center;
+        right:24px;
+        fill: #ffffff;
 }
 
 /* Backdrop */
@@ -798,7 +834,7 @@ img {
         margin-left:auto;
         margin-right:auto;
         border-radius: 4px;
-        background: #4D5AE5;
+        background-color: #4D5AE5;
         box-shadow: 0px 4px 4px 0px 
                    rgba(0, 0, 0, 0.15);
         color: #FFF;

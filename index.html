@@ -602,22 +602,35 @@
         <div class="container-form-footer">
           <form class="form-footer">
             <div class="container-email-footer">
-              <label for="" class="label-email-footer">Subscribe</label>
+              <label class="label-email-footer" for="email-footer"
+                >Subscribe
+              </label>
             </div>
             <input
               class="input-email-footer"
+              id="email-footer"
+              name="email-footer"
               type="email"
-              name="email_footer"
               placeholder="E-mail"
             />
-            <button class="form-button-footer" type="submit">Subscribe</button>
+            <button class="form-footer-button" type="submit">
+              Subscribe
+              <svg
+                class="form-footer-button-icon"
+                width="24"
+                height="24"
+                aria-label="plane icon"
+              >
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
 
     <!--Backdrop Modal-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-button">
           <svg
